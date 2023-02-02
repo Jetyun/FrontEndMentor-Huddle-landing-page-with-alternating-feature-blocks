@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/output.css">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.symbol:hover {
+    filter: invert(53%) sepia(33%) saturate(5679%) hue-rotate(296deg) brightness(105%) contrast(101%);
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <div style="background-image:url('images/bg-hero-mobile.svg'); @media only screen and (min-width: 640px){background-image:url('images/bg-hero-desktop.svg')}" class="bg-[#ebfbff] p-9 lg:p-20">
+    <img src="images/logo.svg" alt="logo pic" width="120" height="20 " class="absolute left-5 lg:left-20" ><button class="font-bold rounded-full shadow-md text-[#00252e] absolute right-5 bg-white w-28 text-xs h-7 lg:right-20 lg:h-10 lg:w-36 hover:opacity-60">Try It Free</button>
+    <div class="flex flex-col lg:flex-row lg:mt-20 lg:justify-between" >
+      <div class="mx-auto mt-28 min-[1440px]:mx-0">
+        <h1 class="text-2xl font-bold text-[#00252e] text-center lg:text-left font-poppins w-[316px] lg:text-4xl lg:w-[400px]">Build The Community Your Fans Will Love</h1>
+        <p class="my-5 text-[#00252e] text-center lg:text-left font-open-sans w-[308px] min-[1440px]:w-[500px]">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="px-7 py-2 mb-10  mx-auto lg:mx-0 block text-center rounded-full text-[#ebfbff] bg-[#ff52bf] w-64 font-bold h-12 hover:brightness-150">Get Started For Free</button>
+      </div>
+      <img src="images/illustration-mockups.svg" alt="mockup pic" width="1035" height="739" class="w-[375px] mx-auto lg:w-[550px] lg:h-96 lg:mx-0 min-[1440px]:w-[700px] min-[1440px]:h-[500px]">
+    </div>
+  </div>
+      <div style="margin-top: 90px; margin-bottom: 90px" class="flex flex-col rounded-2xl bg-white shadow-lg my-24 w-80 mx-auto h-[550px] lg:flex-row-reverse lg:w-5/6 lg:max-w-[1293px] lg:h-[307px]">
+        <img src="images/illustration-grow-together.svg" width="1078" height="813" alt="your user pic" class="w-[300px] mx-auto my-10">
+        <div class="mx-auto my-10 w-72">
+          <p class="mb-5 text-xl font-bold text-center text-[#00252e] text-bold font-open-sans sm:text-left lg:text-2xl lg:mt-11">Grow Together</p>
+          <p class="mb-5 text-center font-open-sans  sm:text-left text-[#808d99] lg:w-[440px]">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        </div>
+        <div style="margin-top: 90px; margin-bottom: 90px" class="flex flex-col rounded-2xl bg-white shadow-lg my-24 w-80 mx-auto h-[550px] lg:flex-row lg:w-5/6 lg:max-w-[1293px] lg:h-[307px]">
+          <img src="images/illustration-flowing-conversation.svg" width="1078" height="813" alt="your user pic" class="w-[300px] mx-auto my-10">
+          <div class="my-10 mr-auto ml-9 w-72">
+            <p class="mb-5 text-xl font-bold text-center text-[#00252e] text-bold font-open-sans sm:text-left lg:text-2xl lg:mt-11">Flowing Conversations</p>
+            <p class="mb-5 text-center font-open-sans  sm:text-left text-[#808d99] lg:w-[440px]">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+          </div>
+          <div style="margin-top: 90px; margin-bottom: 90px" class="flex flex-col rounded-2xl bg-white shadow-lg my-24 w-80 mx-auto h-[550px] lg:flex-row-reverse lg:w-5/6 lg:max-w-[1293px] lg:h-[307px]" >
+            <img src="images/illustration-your-users.svg" width="1078" height="813" alt="your user pic" class="w-[300px] mx-auto my-10">
+            <div class="mx-auto my-10 w-72">
+              <p class="mb-5 text-xl font-bold text-center text-[#00252e] text-bold font-open-sans sm:text-left lg:text-2xl lg:mt-11">Your Users</p>
+              <p class="mb-5 text-center font-open-sans  sm:text-left text-[#808d99] lg:w-[440px]">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            </div>
+            <div class="z-50 px-4 py-10 mx-auto relative h-40 -mb-16 bg-white shadow-2xl rounded-2xl w-80 lg:w-[800px] lg:h-52 ">
+              
+              <p class="font-bold font-open-sans text-center lg:text-4xl text-md mb-2 text-[#00252e]">Ready To Build Your Community?</p>
+              <div class=" rounded-full text-center w-60 m-auto block bg-[#ff52bf] px-6 py-3 text-xs text-white font-bold font-open-sans lg:text-lg lg:w-96 lg:h-16 absolute bottom-8 left-10 lg:left-52 hover:brightness-150">Get Started For Free</div>
+           
+            </div>
+          </div>
+    <div class="flex pt-32 px-4 xl:pl-16 xl:pr-40 flex-col sm:flex-row relative bg-[#00252e] sm:justify-around">
+        <div class="mb-16">
+          <img src="images/logo_footer.svg" alt="main logo" width="240" height="39" class="mb-5 w-36 h-7 xl:h-9 xl:w-48">
+          <div class="flex mb-3"><img src="images/icon-location.svg" width="13" height="10" alt="location icon" class="self-start mr-5"><p class="text-[#ebfbff] max-w-[302px] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></div>
+          <div class="mb-3"><img src="images/icon-phone.svg" class="inline mr-2" width="18" height="18" alt="phone icon"><p class="text-[#ebfbff] inline font-open-sans">+1-543-123-4567</p></div>
+          <div><img src="images/icon-email.svg" width="20" height="16" alt="email icon" class="inline mr-2"><p class="text-[#ebfbff] inline font-open-sans">example@huddle.com</p></div>
+        </div>
+        <div class="mb-3 sm:mt-12 ">
+          <p class="mb-3 text-[#ebfbff] font-open-sans">About Us</p>
+          <p class="mb-3 text-[#ebfbff] font-open-sans">What We Do</p>
+          <p class=" text-[#ebfbff] font-open-sans">FAQ</p>
+        </div>
+        <div class="sm:mt-12">
+          <p class="mb-3 text-[#ebfbff] font-open-sans">Career</p>
+          <p class="mb-3 text-[#ebfbff] font-open-sans">Blog</p>
+          <p class=" text-[#ebfbff] font-open-sans">Contact Us</p>
+        </div>
+      <div class="flex flex-row m-auto my-12 space-x-2 sm:mx-0 ">
+        <div class="border rounded-full border-[#ebfbff] w-6 h-6 pl-[3px] pt-[3px] hover:border-[#ff52bf] "><img src="images/icons8-facebook-f.svg" height="10" width="10" alt="facebook_link" class="w-4 h-4 symbol"></div>
+        <div class="border rounded-full border-[#ebfbff] w-6 h-6 pl-[3px] pt-[3px] hover:border-[#ff52bf]"><img src="images/icons8-twitter.svg" height="10" width="10" alt="twitter_link" class="w-4 h-4 symbol"></div>
+        <div class="border rounded-full border-[#ebfbff] w-6 h-6 pl-[3px] pt-[3px] hover:border-[#ff52bf]"><img src="images/icons8-instagram.svg" height="10" width="10" alt="instagram_link" class="w-4 h-4 symbol"></div>
+        </div>
+        <p class=" text-[#ebfbff] text-xs absolute bottom-4 right-16">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+      
+  </main>
+  <footer>
+    <p class=" text-[11px] text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="text-[#3e52a3]" href="#">Chyunjet</a>.
+    </p>
+  </footer>
+</body>
+</html>
